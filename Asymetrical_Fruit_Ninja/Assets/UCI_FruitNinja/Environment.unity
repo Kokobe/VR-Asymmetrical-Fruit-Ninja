@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.8586377, g: 0.6167687, b: 0.5069824, a: 1}
+  m_IndirectSpecularColor: {r: 0.32448894, g: 0.26577413, b: 0.28752476, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6323,12 +6323,13 @@ GameObject:
   - component: {fileID: 6345518266458786778}
   - component: {fileID: 6345518266459752730}
   - component: {fileID: 6345518266461755353}
+  - component: {fileID: 6345518266461755354}
   m_Layer: 0
   m_Name: Tree1_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!114 &6345518266461755353
 MonoBehaviour:
@@ -6345,6 +6346,20 @@ MonoBehaviour:
   sky: {fileID: 2133174581}
   glowingPart: {fileID: 2100000, guid: 169a647a34e18497bba85203b3698ed7, type: 2}
   glowColor: {r: 0.14901961, g: 0.9529412, b: 1, a: 0}
+--- !u!64 &6345518266461755354
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6345518266461755352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300018, guid: ccee21cb6850543c084580a838179c98, type: 3}
 --- !u!1001 &7232594753996782158
 PrefabInstance:
   m_ObjectHideFlags: 0
