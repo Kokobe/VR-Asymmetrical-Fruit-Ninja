@@ -1,12 +1,11 @@
 /target:library
 /nowarn:0169
-/out:"Temp/Assembly-CSharp-Editor.dll"
+/out:"Temp/Unity.PackageManagerUI.Editor.dll"
 /debug:portable
 /optimize-
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:"Library/ScriptAssemblies/Assembly-CSharp.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -70,11 +69,6 @@
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
-/reference:"Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 /reference:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
@@ -226,7 +220,7 @@
 /define:UNITY_2018_1_OR_NEWER
 /define:UNITY_2018_2_OR_NEWER
 /define:UNITY_2018_3_OR_NEWER
-/define:UNITY_2018_3_4
+/define:UNITY_2018_3_12
 /define:UNITY_2018_3
 /define:UNITY_2018
 /define:PLATFORM_ARCH_64
@@ -318,12 +312,55 @@
 /define:CROSS_PLATFORM_INPUT
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"Assets/Resources/Skybox Shaders/Editor/GradientSkyboxInspector.cs"
-"Assets/Resources/Skybox Shaders/Editor/HorizonWithSunSkyboxInspector.cs"
-"Assets/Resources/Skybox Shaders/Editor/RgbmCubedSkyboxInspector.cs"
-"Assets/Resources/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs"
-"Assets/Resources/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs"
-"Assets/Resources/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs"
-"Assets/Resources/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs"
-"Assets/Resources/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs"
-"Assets/Resources/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/AssemblyInfo.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/External/SemVersion.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/External/SemVersionExtension.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Common/ApplicationUtil.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Common/OperationSignal.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Common/Resources.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Common/ThreadedDelay.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Interfaces/IAddOperation.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Interfaces/IBaseOperation.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Interfaces/IListOperation.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Interfaces/IOperationFactory.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Interfaces/IRemoveOperation.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Interfaces/ISearchOperation.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/OperationFactory.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/Package.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageAssetPostprocessor.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageCollection.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageError.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageFilter.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageGroupOrigins.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageInfo.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageInfoListExtensions.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageJsonHelper.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageListExtensions.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageOrigin.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageSearchFilter.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageState.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Packages/PackageTag.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Upm/UpmAddOperation.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Upm/UpmBaseOperation.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Upm/UpmListOperation.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Upm/UpmOperationFactory.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Upm/UpmRemoveOperation.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/Services/Upm/UpmSearchOperation.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/Common/Alert.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/Common/LoadingSpinner.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/Common/PopupField.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/Common/UIUtils.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/Common/VersionItem.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/Interfaces/IPackageManagerExtension.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageAddFromUrlField.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageDetails.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageFiltering.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageGroup.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageItem.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageList.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageManagerExtensions.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageManagerPrefs.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageManagerToolbar.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageManagerWindow.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageSearchToolbar.cs"
+"/Users/me/GitStuff/VR-Asymmetrical-Fruit-Ninja/Asymetrical_Fruit_Ninja/Library/PackageCache/com.unity.package-manager-ui@2.0.7/Editor/Sources/UI/PackageStatusBar.cs"
