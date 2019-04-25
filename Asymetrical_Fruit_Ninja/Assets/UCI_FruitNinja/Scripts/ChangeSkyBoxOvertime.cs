@@ -64,7 +64,7 @@ public class ChangeSkyBoxOvertime : MonoBehaviour
 
     bool firstTime = true;
 
-    void Update()
+    void FixedUpdate()
     {
    
 
