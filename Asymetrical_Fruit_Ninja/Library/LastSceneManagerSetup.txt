@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/UCI_FruitNinja/Environment.unity
-  isLoaded: 1
-  isActive: 1
